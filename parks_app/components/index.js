@@ -8,6 +8,8 @@ import NetworkImage from "./Reusable/NetworkImage";
 import Recommendations from "./Home/Recommendations";
 
 import Rating from "./Reusable/Rating";
+import DescriptionText from "./Reusable/DescriptionText";
+import PopularList from "./Country/PopularList";
 
 
 
@@ -21,5 +23,7 @@ export {
     NetworkImage, 
     Recommendations,
     Rating, 
+    DescriptionText,
+    PopularList
 
 }

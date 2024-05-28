@@ -6,11 +6,11 @@ import {AntDesign} from '@expo/vector-icons'
 import ReusableText from './ReusableText'
 
 
-const AppBar = ({color, title}) => {
+const AppBar = ({color, title, color1, icon, onPress, onPress1, top, left, right}) => {
   return (
-    <View style = {styles.overlay}>
+    <View style = {styles.overlay (top, left, right)}>
         <View style = {reusable.rowWithSpace('space-between')}>
-            <TouchableOpacity style = {styles.box()}>
+            <TouchableOpacity style = {styles.box(color)} onPress={onPress} >
                 <AntDesign
                 name='left'
                 size={26}/>
@@ -24,9 +24,9 @@ const AppBar = ({color, title}) => {
             color={COLORS.black}
           />
 
-<TouchableOpacity style = {styles.box()}>
+<TouchableOpacity style = {styles.box1(color1)} onPress={onPress1}>
                 <AntDesign
-                name='left'
+                name= {icon}
                 size={26}/>
 
             </TouchableOpacity>
@@ -41,15 +41,26 @@ const AppBar = ({color, title}) => {
 export default AppBar
 
 const styles = StyleSheet.create({
-    overlay: {
-        position: 'absolute',
-        top: 60,
-        left: 0,
-        right: 0,
-        justifyContent: "center"
-    },
+    overlay: (top, left, right) => (
+        {
+            position: 'absolute',
+            top: top,
+            left: left,
+            right: right,
+            justifyContent: "center"
+        }
+    ),
     box: (color) => ({
         backgroundColor: color,
+        width: 30,
+        height: 30,
+        borderRadius: 9,
+        alignItems: "center",
+        justifyContent: "center"
+    }),
+
+    box1: (color1) => ({
+        backgroundColor: color1,
         width: 30,
         height: 30,
         borderRadius: 9,

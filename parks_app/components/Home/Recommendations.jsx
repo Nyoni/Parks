@@ -5,7 +5,8 @@ import reusable from '../Reusable/reusable.style';
 import ReusableText from '../Reusable/ReusableText';
 import { COLORS, SIZES, TEXT } from '../../constants/theme';
 import { Feather } from '@expo/vector-icons';
-import ReusableTile from '../Re'
+import ReusableTile from '../Reusable/ReusableTile'
+
 
 
 

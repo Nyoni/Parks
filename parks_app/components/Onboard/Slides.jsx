@@ -16,22 +16,22 @@ const Slides = ({item}) => {
 
         <View style={styles.stack}>
            <ReusableText 
-           text={item.title}
-           family={'medium'}
-           size={SIZES.xxLarge}
-           color={COLORS.white}
+            text={item.title}
+            family={'medium'}
+            size={SIZES.xxLarge}
+            color={COLORS.white}
            />
 
            <HeightSpacer height={40}/>
 
            <ReusableBtn 
-           onPress={() => navigation.navigate('Bottom')}
-           btnText={"Let's Go"}
-           width={(SIZES.width-50) / 2.2}
-           backgroundColor={COLORS.red}
-           borderColor={COLORS.red}
-           borderWidth={0}
-           textColor={COLORS.white}
+            onPress={() => navigation.navigate('Bottom')}
+            btnText={"Let's Go"}
+            width={(SIZES.width-50) / 2.2}
+            backgroundColor={COLORS.red}
+            borderColor={COLORS.red}
+            borderWidth={0}
+            textColor={COLORS.white}
            />
 
 

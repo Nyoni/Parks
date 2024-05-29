@@ -32,7 +32,7 @@ const Places = () => {
            "The iconic Hwange National Parkis Zimbabwe’s largest national parklocated in the northwestern part of Zimbabwe. It covers 14,650 square kilometers. It is home to the largest population of elephants in Zimbabwe and Africa’s largest population of the endangered wild dog and one may find rare species such as roan and sable. In addition to four of the big 5: elephant, lion, leopard and buffalo; Hwange has 100 mammal species and nearly 400 bird species. The area is mostly covered with savanna grasslands and teak and mopane woodlands.",
          imageUrl:
            "https://www.zimparks.org.zw/wp-content/uploads/2024/05/HwangeOG-copy-scaled.webp",
-         region: "South Asia, India",
+         region: "Hwange, Zimbabwe",
        },
        {
          _id: "64cf2d095d14628d0ac0a2bd",
@@ -50,7 +50,7 @@ const Places = () => {
            "Victoria Falls National Park is located in the northwestern part of Zimbabwe and is home to the world’s largest waterfall at a height of 108 meters (355 feet), stretching across 1,708 meters (5,604 feet). Due to its remarkable natural beauty and cultural significance, the Victoria Falls was added to the list of UNESCO World Heritage Sites in 1989 and is one of the seven natural wonders of the world. The park covers an area of about 23.4 square kilometers and has a dense rainforest which is watered by the spray from the Falls. The source of the mighty Falls is the Zambezi River that flows 2,700 kilometers through six countries on its journey from its source in north-western Zambia to the Indian Ocean. On the very odd occasion, one may spot a leopard but the area is mainly populated by baboons, warthogs and monkeys. The vegetation includes ferns, palms, liana vines and mahogany.  ",
          imageUrl:
            "https://www.zimparks.org.zw/wp-content/uploads/2024/01/Victoria-Falls.jpg",
-         region: "East Asia, China",
+         region: "Zambezi, Zimbabwe",
        },
    ]
   return (

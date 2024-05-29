@@ -13,28 +13,24 @@ const CountryDetails = ({navigation}) => {
     const{item} = route.params;
     const country = {
       "_id": "64c62bfc65af9f8c969a8d04",
-      "country": "USA",
-      "description": "The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.The USA is a tourist magnet, known for its diverse landscapes, rich history, and vibrant culture. From the sun-kissed beaches of California to the bustling streets of New York City, there's something for every traveler.",
-      "imageUrl": "https://d326fntlu7tb1e.cloudfront.net/uploads/1bcdbbd0-d702-475d-92ea-d9171c041674-vinci_01_places_new_york.jpg",
+      "country": "Gonarezhou",
+      "description": "Gonarezhou National Park is Zimbabwe’s second largest park and lies in the South Eastern corner of Zimbabwe bordering Kruger National Park in South Africa and Limpopo National Park in Zimbabwe.It forms part of the Great Limpopo Trans-frontier Conservation Area and covers 5 000 kilometers. The park is home to all of the big 5: elephant, buffalo, rhino, lion and leopard and in addition to these hosts over 100 mammal species, 400 bird species and 50 fish species including Zambezi shark and small-tooth sawfish at the confluence of the Save and Runde; which also happens to be the lowest point in Zimbabwe at 162m above sea level.",
+      "imageUrl": "https://www.zimparks.org.zw/wp-content/uploads/2024/05/Hwange-copy-scaled.webp",
       "popular": [
           {
-              "_id": "64c631650298a05640539adc",
-              "title": "Walt Disney World",
-              "imageUrl": "https://d326fntlu7tb1e.cloudfront.net/uploads/731e1f89-c028-43ef-97ee-8beabde696b6-vinci_01_disney.jpg",
-              "rating": 4.7,
-              "review": "1204 Reviews",
-              "location": "Orlando, USA"
+              "_id": "64cf2c565d14628d0ac0a2b7",
+              "title": "Mana Pools",
+              "imageUrl": "https://www.zimparks.org.zw/wp-content/uploads/2024/05/Mana-Pools-copy-scaled.webp",
+              "location": "Mid Zambezi, Zimbabwe"
           },
           {
-              "_id": "64d062a3de20d7c932f1f70a",
-              "title": "Statue of Liberty",
-              "imageUrl": "https://d326fntlu7tb1e.cloudfront.net/uploads/c3a8b882-b176-47f0-aec5-a0a49bf42fcd-statue-of-liberty-1.webp",
-              "rating": 4.8,
-              "review": "1452 Reviews",
-              "location": "Liberty Island, New York Harbor"
+            "_id": "64cf2d4d5d14628d0ac0a2bf",
+            "title": "Victoria Falls",
+            "imageUrl": "https://www.zimparks.org.zw/wp-content/uploads/2024/01/Victoria-Falls.jpg",
+            "location": "Zambezi, Zimbabwe",
           }
       ],
-      "region": "North America, USA"
+      "region": "South East, Zimbabwe"
   }
 
     console.log(item);

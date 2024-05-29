@@ -10,7 +10,7 @@ const navigation = useNavigation();
 const renderItem=({item}) => (
     <View style={{marginBottom: 10}}>
         <ReusableTile
-        item={item} onPress={() => navigation.navigate('PlaceDetails', item._id) }/>
+        item={item} onPress={() => navigation.navigate('PlaceDetails') }/>
     </View>
 )   
 

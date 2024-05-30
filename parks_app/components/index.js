@@ -10,6 +10,7 @@ import Recommendations from "./Home/Recommendations";
 import Rating from "./Reusable/Rating";
 import DescriptionText from "./Reusable/DescriptionText";
 import PopularList from "./Country/PopularList";
+import HotelMap from "./Hotel/HotelMap";
 
 
 
@@ -24,6 +25,7 @@ export {
     Recommendations,
     Rating, 
     DescriptionText,
-    PopularList
+    PopularList,
+    HotelMap
 
 }

@@ -2,7 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import MapView, {Marker} from 'react-native-maps'
 
-const HotelMap = () => {
+const HotelMap = ({coordinates}) => {
   return (
     <TouchableOpacity onPress={()=> {}}>
         <MapView style={styles.maps} region={coordinates}>

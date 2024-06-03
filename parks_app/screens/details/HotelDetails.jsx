@@ -3,7 +3,7 @@ import React from 'react'
 import AppBar from '../../components/Reusable/AppBar'
 import { COLORS, SIZES, TEXT } from '../../constants/theme'
 import styles from './HotelDetails.styles'
-import { DescriptionText, HeightSpacer, HotelMap, NetworkImage, ReusableText } from '../../components'
+import { DescriptionText, HeightSpacer, HotelMap, NetworkImage, ReusableText, ReviewsList } from '../../components'
 import reusable from '../../components/Reusable/reusable.style'
 import {Rating} from 'react-native-stock-star-rating'
 import {Feather} from '@expo/vector-icons'
@@ -179,6 +179,8 @@ let coordinates = {
                 <Feather name='list' size={20}/>
               </TouchableOpacity>
             </View>
+
+            <ReviewsList reviews={hotel.reviews} />
 
 
     </View> 

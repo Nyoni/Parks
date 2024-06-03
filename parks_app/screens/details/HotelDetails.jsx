@@ -3,13 +3,14 @@ import React from 'react'
 import AppBar from '../../components/Reusable/AppBar'
 import { COLORS, SIZES, TEXT } from '../../constants/theme'
 import styles from './HotelDetails.styles'
-import { DescriptionText, HeightSpacer, HotelMap, NetworkImage, ReusableText, ReviewsList } from '../../components'
+import { DescriptionText, HeightSpacer, HotelMap, NetworkImage, ReusableBtn, ReusableText, ReviewsList } from '../../components'
 import reusable from '../../components/Reusable/reusable.style'
 import {Rating} from 'react-native-stock-star-rating'
 import {Feather} from '@expo/vector-icons'
+import { useRoute } from '@react-navigation/native'
 
 
-const HotelDetails = () => {
+const HotelDetails = ({navigation}) => {
   const hotel = {
     "availability": {
         "start": "2023-08-20T00:00:00.000Z",
@@ -47,19 +48,19 @@ const HotelDetails = () => {
           "username": "John Doe",
           "profile": "https://www.zimparks.org.zw/wp-content/uploads/2024/03/zambezilodges.jpg",
         },
-        "updateAt": "2023-08-09T13:09:09.200Z"
+        "updateAt": "2023-08-01"
       },
 
       {
-        "_id": "64d38ff59af9119acfab0ece",
+        "_id": "64d38ff59af9119ad38ff59a",
         "review": "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
         "rating": 4.6,
         "user": {
           "_id": "64c5d95adc7efae2a45ec376",
-          "username": "John Doe",
+          "username": "Tafadzwa Nyoni",
           "profile": "https://www.zimparks.org.zw/wp-content/uploads/2024/03/zambezilodges.jpg",
         },
-        "updateAt": "2023-08-09T13:09:09.200Z"
+        "updateAt": "2023-08-09"
       },
     ]
 }
@@ -180,10 +181,38 @@ let coordinates = {
               </TouchableOpacity>
             </View>
 
+            <HeightSpacer height={15}/>
+
             <ReviewsList reviews={hotel.reviews} />
 
 
+
+
     </View> 
+
+    <View style={[reusable.rowWithSpace('space-between'), styles.bottom]}>
+      <View>
+      <ReusableText
+              text={`\$ ${hotel.price}`}
+              family={'medium'}
+              size={SIZES.large}
+              color={COLORS.black}
+            />
+
+            <HeightSpacer height={10}/>
+      </View>
+
+      <ReusableBtn 
+          onPress={() => navigation.navigate('SelectRoom')}
+          btnText={"Book Now"}
+          width={(SIZES.width-50)/2.2}
+          backgroundColor={COLORS.green}
+          borderColor={COLORS.green}
+          borderWidth={0}
+          textColor={COLORS.white}
+        />
+ 
+    </View>
   </View>
 </ScrollView>
   )

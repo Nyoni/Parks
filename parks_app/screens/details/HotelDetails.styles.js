@@ -30,6 +30,13 @@ const styles = StyleSheet.create({
         padding: 15
     },
 
+    bottom: {
+        paddingHorizontal: 30,
+        backgroundColor: COLORS.lightWhite,
+         height: 90,
+         paddingVertical: 20
+    }
+
 })
 
 

@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { COLORS } from "../../constants/theme";
 
-const homestyles = StyleSheet.create({
+const styles = StyleSheet.create({
     box: {
         backgroundColor: COLORS.white,
         width: 40,
@@ -12,4 +12,4 @@ const homestyles = StyleSheet.create({
     }
 })
 
-export default homestyles
+export default styles

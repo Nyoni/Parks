@@ -81,7 +81,7 @@ let coordinates = {
         top={50}
         left={20}
         right={20}
-        title={"Title"} 
+
         color={COLORS.white} 
         icon={'search1'}
         color1={COLORS.white} 

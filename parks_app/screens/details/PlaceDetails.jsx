@@ -11,6 +11,7 @@ import {Feather} from '@expo/vector-icons'
 const PlaceDetails = () => {
     const route = useRoute();
     const id = route.params
+    console.log(id);
 
     const place = {
       "_id": "64c631650298a05640539adc",

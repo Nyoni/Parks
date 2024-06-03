@@ -15,6 +15,7 @@ const Home = ({navigation}) => {
 
     <SafeAreaView style={reusable.container}>
       <View>
+      <HeightSpacer height={SIZES.xLarge}/>
         <View style={reusable.rowWithSpace ('space-between')}>
 
           <ReusableText 
@@ -24,9 +25,17 @@ const Home = ({navigation}) => {
             color={COLORS.black}
           />
 
+          <TouchableOpacity style={styles.box}
+            onPress={()=> navigation.navigate('Search')}>
+            <AntDesign 
+            name='search1'
+            size={26}
+            />
+          </TouchableOpacity>
+
         </View>
 
-        <HeightSpacer height={SIZES.xxLarge}/>
+        <HeightSpacer height={SIZES.xLarge}/>
 
         <ReusableText 
             text={'Visit Our Parks'}

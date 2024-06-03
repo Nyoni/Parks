@@ -2,13 +2,13 @@ import { FlatList, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Reviewtile from '../Tiles/Reviews/Reviewtile'
 
-const ReviewsList = () => {
+const ReviewsList = ({reviews} ) => {
   return (
     <FlatList
     data={reviews}
     scrollEnabled={false}
     showsVerticalScrollIndicator={false}
-    keyExtractor={(item)}
+    keyExtractor={(item)=>item._id}
     renderItem={({item})=>(
       <Reviewtile review={item}/>
     )}/>

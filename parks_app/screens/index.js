@@ -11,6 +11,9 @@ import HotelDetails from "./details/HotelDetails";
 import Hotelists from "./details/Hotelists";
 import HotelSearch from "./search/HotelSearch";
 import SelectRoom from "./details/SelectRoom";
+import TopBookings from "./top/TopBookings";
+import TopInfo from "./top/TopInfo";
+import TopTrips from "./top/TopTrips";
 
 export {
     Onboarding,
@@ -25,5 +28,8 @@ export {
     HotelDetails,
     Hotelists,
     HotelSearch, 
-    SelectRoom
+    SelectRoom,
+    TopBookings,
+    TopInfo,
+    TopTrips
 }

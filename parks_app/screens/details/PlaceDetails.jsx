@@ -8,7 +8,7 @@ import { COLORS, SIZES, TEXT } from '../../constants/theme';
 import reusable from '../../components/Reusable/reusable.style';
 import {Feather} from '@expo/vector-icons'
 
-const PlaceDetails = () => {
+const PlaceDetails = ({navigation}) => {
     const route = useRoute();
     const id = route.params
     console.log(id);

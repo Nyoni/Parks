@@ -13,6 +13,8 @@ import PopularList from "./Country/PopularList";
 import HotelMap from "./Hotel/HotelMap";
 import ReviewsList from "./Hotel/ReviewsList";
 import Reviewtile from "./Tiles/Reviews/Reviewtile";
+import ProfileTile from "./Reusable/ProfileTile";
+import SettingTile from "./Settings/SettingTile";
 
 
 
@@ -30,6 +32,7 @@ export {
     PopularList,
     HotelMap,
     ReviewsList,
-    Reviewtile
-
+    Reviewtile,
+    ProfileTile,
+    SettingTile
 }

@@ -6,7 +6,7 @@ import { useCallback } from 'react';
 /*import Navigation container from react-navigation/native */
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack'; 
-import { Onboarding, Search, CountryDetails, Recommended, PlaceDetails, HotelDetails, Hotelists, HotelSearch, SelectRoom, Payments, Settings, Failed, Successful} from './screens';
+import { Onboarding, Search, CountryDetails, Recommended, PlaceDetails, HotelDetails, Hotelists, HotelSearch, SelectRoom, Payments, Settings, Failed, Successful, AuthTopTab} from './screens';
 import BottomTabNavigation from './navigation/BottomTabNavigation';
 
 
@@ -54,6 +54,7 @@ export default function App() {
         <Stack.Screen name='Settings' component={Settings} options={{headerShown:false}}/>
         <Stack.Screen name='Failed' component={Failed} options={{headerShown:false}}/>
         <Stack.Screen name='Successful' component={Successful} options={{headerShown:false}}/>
+        <Stack.Screen name='AuthTopTab' component={AuthTopTab} options={{headerShown:false}}/>
       
       </Stack.Navigator>
     </NavigationContainer>

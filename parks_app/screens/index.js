@@ -20,9 +20,11 @@ import Failed from "./bookings/Failed";
 import Successful from "./bookings/Successful";
 import Registration from "./authentication/Registration";
 import Signin from "./authentication/Signin";
+import AuthTopTab from "../navigation/AuthTopTab";
 
 export {
     Onboarding,
+    AuthTopTab,
     Registration,
     Signin,
     Failed,

@@ -18,9 +18,15 @@ import Settings from "./settings/Settings";
 import Payments from "./profile/Payments";
 import Failed from "./bookings/Failed";
 import Successful from "./bookings/Successful";
+import Registration from "./authentication/Registration";
+import Signin from "./authentication/Signin";
 
 export {
     Onboarding,
+    Registration,
+    Signin,
+    Failed,
+    Successful,
     Home,
     Chat,
     Location,
@@ -37,7 +43,5 @@ export {
     TopInfo,
     TopTrips,
     Settings,
-    Payments,
-    Failed,
-    Successful
+    Payments
 }

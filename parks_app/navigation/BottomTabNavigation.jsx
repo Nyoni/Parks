@@ -1,7 +1,7 @@
 import { View, Text, StyleSheet } from 'react-native'
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Home, Location, Chat, Profile } from '../screens';
+import { Home, Location, Chat, Profile, Successful } from '../screens';
 import { Ionicons } from '@expo/vector-icons'
 import { COLORS } from '../constants/theme';
 import TopTab from './TopTab';
@@ -68,8 +68,8 @@ const BottomTabNavigation = () => {
         }/>
 
     <Tab.Screen 
-        name='Chat' 
-        component={Chat} 
+        name='Successful' 
+        component={Successful} 
         options={
             {
                 tabBarStyle: tabBarStyle,

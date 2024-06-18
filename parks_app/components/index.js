@@ -4,6 +4,7 @@ import ReusableBtn from "./Buttons/ReusableBtn";
 import HeightSpacer from "./Reusable/HeightSpacer";
 import WidthSpacer from "./Reusable/WidthSpacer";
 import NetworkImage from "./Reusable/NetworkImage";
+import AssetImage  from "./Reusable/AssetImage";
 
 import Recommendations from "./Home/Recommendations";
 
@@ -34,5 +35,6 @@ export {
     ReviewsList,
     Reviewtile,
     ProfileTile,
-    SettingTile
+    SettingTile, 
+    AssetImage
 }

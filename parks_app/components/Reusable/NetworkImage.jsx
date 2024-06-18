@@ -6,9 +6,7 @@ const NetworkImage = ({source,width, height, radius  }) => {
     <Image
         source={{uri: source}}
         style={styles.image(width, height, radius)}
-
-
-    
+  
     />
   )
 }

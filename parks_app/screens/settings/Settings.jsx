@@ -4,17 +4,19 @@ import { COLORS, SIZES } from '../../constants/theme'
 import AppBar from '../../components/Reusable/AppBar'
 import { HeightSpacer, ReusableText } from '../../components'
 
-const Settings = () => {
+const Settings = ({navigation}) => {
   return (
     <View style={{backgroundColor: COLORS.lightWhite, flex: 1}}>
         <View style={{height: 120}}>
         <AppBar 
-                  top={10}
-                  left={0}
-                  right={0}
+                  top={50}
+                  left={20}
+                  right={20}
         color={COLORS.white} 
         onPress={() => navigation.goBack()}
         />
+        </View>
+
         <View style={{marginHorizontal: 20}}>
             <ReusableText 
                 text={'Account Settings'}
@@ -43,8 +45,6 @@ const Settings = () => {
 
             <HeightSpacer height={10}/>
              
-        </View>
-
         </View>
 
     </View>

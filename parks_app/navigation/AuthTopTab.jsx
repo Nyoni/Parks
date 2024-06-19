@@ -14,7 +14,7 @@ const AuthTopTab = () => {
             <HeightSpacer height={80}/>
 
             <Image
-                source={require('../assets/images/bg1.png')}
+                source={require('../assets/images/Auth.webp')}
                 style={styles.image}
             />
             <View style={{height: 600}}>

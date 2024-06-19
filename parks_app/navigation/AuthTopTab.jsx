@@ -17,7 +17,7 @@ const AuthTopTab = () => {
                 source={require('../assets/images/bg1.png')}
                 style={styles.image}
             />
-            <View>
+            <View style={{height: 600}}>
                 <Tab.Navigator>
                     <Tab.Screen name='Signin' component={Signin}/>
                     <Tab.Screen name='Registration' component={Registration}/>

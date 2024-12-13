@@ -19,7 +19,7 @@ const HotelSearch = ({navigation}) => {
     {
         "_id": "64c674d23cfa5e847bcd5430",
         "country_id": "64c62bfc65af9f8c969a8d04",
-        "title": "Zambezi Lodges",
+        "title": "Zambezi Park Lodges",
         "imageUrl": "https://www.zimparks.org.zw/wp-content/uploads/2024/03/zambezilodges.jpg",
         "rating": 4.9,
         "review": "1204 Reviews",

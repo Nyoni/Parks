@@ -2,7 +2,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import reusable from './reusable.style'
 import { COLORS, SIZES, TEXT } from '../../constants/theme'
-import {HeightSpacer, NetworkImage, Rating, ReusableText, WidthSpacer} from '../../components/index'
+import {HeightSpacer, NetworkImage, Rating, ReusableText, WidthSpacer} from '../index'
 
 const ReusableTile = ({ item, onPress }) => {
   return (

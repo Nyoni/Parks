@@ -1,7 +1,7 @@
 import { StyleSheet, Text, TouchableOpacity, View } from 'react-native'
 import React from 'react'
 import { COLORS, SIZES, TEXT } from '../../../../constants/theme'
-import { HeightSpacer, NetworkImage, Rating, ReusableText } from '../../../../components/index'
+import { HeightSpacer, NetworkImage, Rating, ReusableText } from '../../../index'
 
 const HotelCard = ({item, margin, onPress}) => {
   return (

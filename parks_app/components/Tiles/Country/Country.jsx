@@ -1,7 +1,7 @@
 import { View, Text, TouchableOpacity } from 'react-native'
 import React from 'react'
 import { COLORS, TEXT } from '../../../constants/theme'
-import {HeightSpacer, NetworkImage, ReusableText} from '../../../components/index' 
+import {HeightSpacer, NetworkImage, ReusableText} from '../../index' 
 import { useNavigation } from '@react-navigation/native'
 
 const Country = ({item}) => {

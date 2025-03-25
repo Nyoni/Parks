@@ -1,7 +1,7 @@
 import { View, Text, Image } from 'react-native';
 import React from 'react';
 import styles from './slides.style';
-import {HeightSpacer, ReusableBtn, ReusableText} from '../../components/index';
+import {HeightSpacer, ReusableBtn, ReusableText} from '../index';
 import { COLORS, SIZES } from '../../constants/theme';
 import { useNavigation } from '@react-navigation/native';
 
